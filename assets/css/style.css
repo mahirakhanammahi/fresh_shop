@@ -1,0 +1,110 @@
+/* {default css start } */
+* {
+  font-family: "'Iowan Old Style BT', Menlo, Monaco, 'Courier New', monospace";
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* {default css end } */
+
+
+/* {main css start } */
+.border_rounded {
+  border-radius: 50%;
+  background-color: rgb(212, 208, 204);
+}
+.bg_image {
+  background-image: url(../img/bg-icon.png);
+  background-size: cover;
+}
+.bg_images {
+  background-image: url(../img/bg-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.danger_hr {
+  width: 15%;
+  height: 5px;
+  background-color: #f65a14;
+  border: none;
+  outline: none;
+}
+.success_hr {
+  width: 10%;
+  height: 5px;
+  margin-top: 100px;
+  border: none;
+  outline: none;
+  background-color: #76cc5d;
+}
+.button_cards {
+  padding: 10px 20px;
+  border: 2px solid #3cb815;
+  border-radius: 30px;
+}
+
+.our_features_bg {
+  background-image: url(../img/bg-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px;
+}
+
+
+/* {main css end } */
+
+
+/* {making css start } */ 
+.text_green {
+  color: #3cb815;
+}
+.bg_green {
+  background-color: #3cb815;
+}
+.text_gray {
+  color: gray;
+}
+.bg_dark {
+  background-color: #efe3e3c8;
+  padding-bottom: 20px;
+}
+.bg_darks{
+  background-color: #000;
+  color: #fff;
+}
+
+.btn_success {
+  background-color: #3cb815;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+}
+.btn_danger {
+  background-color: #f65005;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+}
+.font_size {
+  font-size: 55px;
+}
+/* {making css end } */
+
+
+/* {footer } */
+.iconss{
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 20px;
+}
